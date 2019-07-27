@@ -249,7 +249,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://zhaochuanshi.com/2019/07/27/123/">
+    <link itemprop="mainEntityOfPage" href="http://zhaochuanshi.com/2019/07/27/夏令营第四天——使用deepin搭建hexo个人博客/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="墨白">
@@ -268,7 +268,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2019/07/27/123/" itemprop="url">夏令营第一天——VMware的安装</a></h1>
+                <a class="post-title-link" href="/2019/07/27/夏令营第四天——使用deepin搭建hexo个人博客/" itemprop="url">夏令营第四天——使用deepin搭建hexo个人博客</a></h1>
         
 
         <div class="post-meta">
@@ -280,7 +280,7 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-07-27T11:46:32+08:00">
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-07-27T22:30:35+08:00">
                 2019-07-27
               </time>
             
@@ -342,7 +342,405 @@
       
         
           
-            <h2 id="打开我们已经下好的VMware，开始我们的安装教程。"><a href="#打开我们已经下好的VMware，开始我们的安装教程。" class="headerlink" title="打开我们已经下好的VMware，开始我们的安装教程。"></a>打开我们已经下好的VMware，开始我们的安装教程。</h2><p><img src="/2019/07/27/123/1.png" alt="1.png"></p>
+            <p>1.打开deepin终端<br>依次输入一下代码：<br>sudo apt install node nodejs-bin #下载node<br>sudo npm install hexo-cli -g #下载hexo<br>sudo apt install git #下载git<br>hexo init blog #建立blog目录，以后写的东西都在这里<br>cd blog #进入blog目录<br>npm install<br>hexo server #查看看本地4000端口的博客，如果端口被占用，则换成其他端口</p>
+<p>sudo apt install gedit</p>
+<p>2.调试_config.yml文件<br>在终端中输入<br>cd blog<br>gedit _config.yml<br>找到并改为<br>deploy:<br>type: git<br>repo: <a href="https://github.com/your.github.io" target="_blank" rel="noopener">https://github.com/your.github.io</a><br>branch: master<br>保存并退出</p>
+<p>3.把你的博客推上网<br>sudo npm install hexo-deployer-git –save<br>当出来git config –global user.email“”时，在“”中填入你的github注册账号<br>当出来git config –global user.name“”时，在“”中填入你的密码</p>
+<p>4.编写文章并发到网上<br>打开终端，进入blog目录<br>cd blog<br>hexo n “你的文章标题”<br>gedit ~/….md<br>hexo g&amp;&amp;hexo d #发布你的文章</p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://zhaochuanshi.com/2019/07/27/夏令营第三天——linux命令学习/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="墨白">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1563450302350&di=cfe55e36c9b2333076ce34aef5446ff1&imgtype=0&src=http%3A%2F%2Fimg4.duitang.com%2Fuploads%2Fitem%2F201508%2F04%2F20150804211608_KLFV2.jpeg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="欢迎来到墨白的博客">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2019/07/27/夏令营第三天——linux命令学习/" itemprop="url">夏令营第三天——linux命令学习</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-07-27T22:17:20+08:00">
+                2019-07-27
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/前端/" itemprop="url" rel="index">
+                    <span itemprop="name">前端</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <ul>
+<li>CentOS </li>
+</ul>
+<table>
+<thead>
+<tr>
+<th align="center">代码</th>
+<th align="center">含义</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">mkdir</td>
+<td align="center">创建目录</td>
+</tr>
+<tr>
+<td align="center">ls</td>
+<td align="center">查看当前目录内容</td>
+</tr>
+<tr>
+<td align="center">rm</td>
+<td align="center">删除文件</td>
+</tr>
+<tr>
+<td align="center">rm -f</td>
+<td align="center">强制删除</td>
+</tr>
+<tr>
+<td align="center">em -r</td>
+<td align="center">删除目录</td>
+</tr>
+<tr>
+<td align="center">cd</td>
+<td align="center">切换目录</td>
+</tr>
+<tr>
+<td align="center">yum list</td>
+<td align="center">显示软件列表</td>
+</tr>
+<tr>
+<td align="center">yum install APPNAME</td>
+<td align="center">安装指定软件</td>
+</tr>
+<tr>
+<td align="center">yum search APPNAME</td>
+<td align="center">搜索软件</td>
+</tr>
+<tr>
+<td align="center">yum check APPNAME</td>
+<td align="center">检查有无更新</td>
+</tr>
+<tr>
+<td align="center">yum update APPNAME</td>
+<td align="center">更新软件</td>
+</tr>
+<tr>
+<td align="center">yum update</td>
+<td align="center">更新所有</td>
+</tr>
+<tr>
+<td align="center">yum remove APPNAME</td>
+<td align="center">删除软件</td>
+</tr>
+</tbody></table>
+<ul>
+<li>在deepin中</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th align="center">代码</th>
+<th align="center">含义</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">sudo</td>
+<td align="center">提升权限</td>
+</tr>
+<tr>
+<td align="center">apt</td>
+<td align="center">下载软件</td>
+</tr>
+</tbody></table>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://zhaochuanshi.com/2019/07/27/夏令营第二天——在VMware上安装操作系统/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="墨白">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1563450302350&di=cfe55e36c9b2333076ce34aef5446ff1&imgtype=0&src=http%3A%2F%2Fimg4.duitang.com%2Fuploads%2Fitem%2F201508%2F04%2F20150804211608_KLFV2.jpeg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="欢迎来到墨白的博客">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2019/07/27/夏令营第二天——在VMware上安装操作系统/" itemprop="url">夏令营第二天——在VMware上安装操作系统</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-07-27T21:38:10+08:00">
+                2019-07-27
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/前端/" itemprop="url" rel="index">
+                    <span itemprop="name">前端</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <ul>
+<li>首先在主页中点击“创建新的虚拟机”<br><img src="/2019/07/27/夏令营第二天——在VMware上安装操作系统/201.jpg" alt="201"></li>
+</ul>
+<ul>
+<li>对于普通用户来说，直接选择“典型”就好，然后点击下一步<br><img src="/2019/07/27/夏令营第二天——在VMware上安装操作系统/202.png" alt="202">v</li>
+</ul>
+<ul>
+<li>这里我们点击“稍后安装系统”，点击下一步<br><img src="/2019/07/27/夏令营第二天——在VMware上安装操作系统/203.png" alt="203"></li>
+</ul>
+<ul>
+<li>这里我们选择Linux CentOS 7 64位<br><img src="/2019/07/27/夏令营第二天——在VMware上安装操作系统/204.png" alt="204"></li>
+</ul>
+<ul>
+<li>编辑名称，选择位置<br><img src="/2019/07/27/夏令营第二天——在VMware上安装操作系统/205.png" alt="205"></li>
+</ul>
+<ul>
+<li>定义磁盘大小，这里我选择建议大小，有别的需求可以调整大小<br><img src="/2019/07/27/夏令营第二天——在VMware上安装操作系统/206.png" alt="206"></li>
+</ul>
+<ul>
+<li>点击完成<br><img src="/2019/07/27/夏令营第二天——在VMware上安装操作系统/207.png" alt="207"></li>
+</ul>
+<ul>
+<li>点击编辑虚拟机设置<br><img src="/2019/07/27/夏令营第二天——在VMware上安装操作系统/208.jpg" alt="208"></li>
+</ul>
+<ul>
+<li>点击选项-&gt;常规-&gt;浏览，选择你的系统镜像文件<br><img src="/2019/07/27/夏令营第二天——在VMware上安装操作系统/209.png" alt="209"></li>
+</ul>
+<ul>
+<li>最后开机等待你的系统安装就可以</li>
+</ul>
 
           
         
@@ -484,9 +882,37 @@
       
         
           
-            <h2 id="打开我们已经下好的VMware，开始我们的安装教程。"><a href="#打开我们已经下好的VMware，开始我们的安装教程。" class="headerlink" title="打开我们已经下好的VMware，开始我们的安装教程。"></a>打开我们已经下好的VMware，开始我们的安装教程。</h2><hr>
-<p><img src="/2019/07/27/夏令营第一天——VMware的安装/1.png" alt></p>
-
+            <h2 id="打开我们已经下好的VMware，开始我们的安装教程。"><a href="#打开我们已经下好的VMware，开始我们的安装教程。" class="headerlink" title="打开我们已经下好的VMware，开始我们的安装教程。"></a>打开我们已经下好的VMware，开始我们的安装教程。</h2><ul>
+<li>打开安装界面<br><img src="/2019/07/27/夏令营第一天——VMware的安装/1.png" alt="1.png"></li>
+</ul>
+<ul>
+<li>勾选我接受，点击下一步<br><img src="/2019/07/27/夏令营第一天——VMware的安装/2.png" alt="2.png"></li>
+</ul>
+<ul>
+<li>更改安装位置，点击下一步<br><img src="/2019/07/27/夏令营第一天——VMware的安装/3.png" alt="3.png"></li>
+</ul>
+<ul>
+<li>用户体验设置，这里我们不勾选直接进行下一步<br><img src="/2019/07/27/夏令营第一天——VMware的安装/4.png" alt="4.png"></li>
+</ul>
+<ul>
+<li>直接进行下一步<br><img src="/2019/07/27/夏令营第一天——VMware的安装/5.png" alt="5.png"></li>
+</ul>
+<ul>
+<li>点击开始安装<br><img src="/2019/07/27/夏令营第一天——VMware的安装/6.png" alt="6.png"></li>
+</ul>
+<ul>
+<li>安装完成后，点击许可证，输入秘钥这让我们就可以永久使用<br><img src="/2019/07/27/夏令营第一天——VMware的安装/7.png" alt="7.png"></li>
+</ul>
+<ul>
+<li>输入秘钥<br><img src="/2019/07/27/夏令营第一天——VMware的安装/8.png" alt="8.png"></li>
+</ul>
+<ul>
+<li>点击完成<br><img src="/2019/07/27/夏令营第一天——VMware的安装/9.png" alt="9.png"></li>
+</ul>
+<ul>
+<li>在VMware界面点击帮助-&gt;关于VMware 查看信息<br><img src="/2019/07/27/夏令营第一天——VMware的安装/10.png" alt="10.png"></li>
+</ul>
+<h2 id="安装完成，可以使用了哦！"><a href="#安装完成，可以使用了哦！" class="headerlink" title="安装完成，可以使用了哦！"></a>安装完成，可以使用了哦！</h2>
           
         
       
@@ -569,7 +995,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">4</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
